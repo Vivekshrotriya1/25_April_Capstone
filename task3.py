@@ -10,8 +10,8 @@ from langchain_community.chains import RetrievalQA
 from dotenv import load_dotenv
 import os
 
-AZURE_ENDPOINT ="https://jgvehcbeh/ejhrevkf3ebffk3jer"
-API_KEY ="cvewjhcekcekjcbewjejcjkbcvkj"
+AZURE_ENDPOINT =os.getenv("AZURE_ENPOINT_M3")
+API_KEY =os.getenv("API_KEY_M3")
 DEPLOYMENT_NAME =  "gpt-4.1"  # IMPORTANT
 
 # -------------------------------
