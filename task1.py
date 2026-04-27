@@ -6,8 +6,8 @@ import logging
 # ===============================
 # 🔹 CONFIGURATION
 # ===============================
-AZURE_ENDPOINT = "https://dhvcejhcvjejc/gevcejch3ebckj3ec/hvhchc"
-API_KEY = "gvcjhecvkehfbvkvkehbvk"
+AZURE_ENDPOINT =os.getenv("AZURE_ENPOINT_M1")
+API_KEY =os.getenv("API_KEY_M1")
 
 headers = {
     "Content-Type": "application/json",
