@@ -7,8 +7,8 @@ from typing import List, Dict
 # ===============================
 # 🔹 CONFIGURATION
 # ===============================
-AZURE_ENDPOINT = "https://cjgvcjwediehcbj/ecbecvekjc"
-API_KEY = "hfbvvjkvberkvgeklrvl"
+AZURE_ENDPOINT =os.getenv("AZURE_ENPOINT_M2")
+API_KEY =os.getenv("API_KEY_M2")
 
 headers = {
     "Content-Type": "application/json",
